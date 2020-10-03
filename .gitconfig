@@ -1,0 +1,17 @@
+[user]
+  name = Wallace Oliveira
+  email = wallacebatistaoliveira@gmail.com
+  signingkey =
+
+[github]
+  user = uselessdev
+
+[core]
+  excludesfile = ~/.gitignore
+  editor = vim
+  filemode = false
+  trustctime = false
+  autocrlf = input
+ 
+[commit]
+  gpgsign = false

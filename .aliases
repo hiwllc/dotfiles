@@ -1,0 +1,7 @@
+# common shortcuts
+alias reload="source ~/.zshrc"
+alias rr="rr -Rf"
+alias please="sudo"
+alias ip="curl ifconfig.me"
+alias open="xdg-open"
+alias dev="cd ~/Documents/Code/"

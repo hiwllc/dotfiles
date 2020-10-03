@@ -1,0 +1,11 @@
+export SHELL=/bin/zsh
+
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='nano'
+else
+  export EDITOR='vim'
+fi
+
+export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+export GPG_TTY=$(tty)
